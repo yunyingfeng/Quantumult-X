@@ -5,7 +5,7 @@ BaseVP*解锁
 [rewrite_local]
 
 # BaseVP*
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/basevpnpro.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/base.js
 
 [mitm] 
 
