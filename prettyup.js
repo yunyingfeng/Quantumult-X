@@ -2,14 +2,11 @@
 [rewrite_local]
 
 # prettyup解锁
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PlaneVPNProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/prettyup.js
 
 [mitm] 
 
 hostname = buy.itunes.apple.com
-*
-*
-*/
 
 
 var objc = JSON.parse($response.body);
