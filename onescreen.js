@@ -1,8 +1,7 @@
 /*
-圈X:
-#Gear解锁会员永久
+#onescreen解锁
 [rewrite_local]
-^https\:\/\/api.revenuecat.com\/v1\/subscribers(.+) url script-response-body https://raw.githubusercontent.com/ThorJsbox/QuanX/master/Rewrite_local/Gearpro.js
+^https\:\/\/api.revenuecat.com\/v1\/subscribers(.+) url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/onescreen.js
 [mitm]
 hostname = api.revenuecat.com,
 */
