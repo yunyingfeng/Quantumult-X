@@ -16,7 +16,7 @@ hostname = nz-api.duitang.com
 
 var body = $response.body;
 
-var url = $request.url;
+var urlq = $request.url;
 
 var obj = JSON.parse(body);
 
@@ -26,7 +26,7 @@ const vip = '/account/me';
 
 
 
-if (url.indexOf(vip) != -1) {
+if (urlq.indexOf(vip) != -1) {
 
     obj.data.vip = true;
 
