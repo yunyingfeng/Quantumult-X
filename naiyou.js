@@ -11,24 +11,33 @@ hostname = nz-api.duitang.com
 
 
 
-var body = $response.body;
-
-/*var url = $request.url;*/
-
-var obj = JSON.parse(body);
-
-
-
-const vip = '/account/me';
-
-
-
-if (url.indexOf(vip) != -1) {
-
-    obj.data.vip = true;
-
-    body = JSON.stringify(obj);
-
+var objc = JSON.parse($response.body);
+      
+    objc = {
+  "status" : 1,
+  "message" : "success",
+  "data" : {
+    "id" : 2217662,
+    "bindQQ" : false,
+    "vip" : true,
+    "version" : 1,
+    "bindWechat" : true,
+    "createAt" : "2022-04-06 17:16:00",
+    "avatar" : "",
+    "bindApple" : false,
+    "updateAt" : "2022-04-06 17:16:00",
+    "statics" : {
+      "payTotal" : 999999,
+      "blogCollectTotal" : 0,
+      "blogDownloadTotal" : 0
+    },
+    "nickname" : "",
+    "telephone" : "2",
+    "status" : 0,
+    "bindPhone" : false
+  }
 }
+        
+        
 
-$done({body});
+$done({ body : JSON.stringify(objc) });
