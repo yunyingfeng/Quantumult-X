@@ -2,7 +2,7 @@
 
 # 奶油壁纸
 
-^https://nz-api.duitang.com/account/me url script-response-body naiyou.js
+^https://nz-api.duitang.com/account/me url https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/naiyou.js
 
 
 [mitm] 
