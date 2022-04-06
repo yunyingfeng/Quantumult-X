@@ -14,7 +14,7 @@ hostname = nz-api.duitang.com
 var objc = JSON.parse($response.body);
       
     objc = {
-  "status" : 0,
+  "status" : 1,
   "message" : "success",
   "data" : {
     "id" : 2217662,
@@ -22,17 +22,17 @@ var objc = JSON.parse($response.body);
     "vip" : true,
     "version" : 1,
     "bindWechat" : true,
-    "createAt" : "2022-04-06 17:16:00",
+    "createAt" : "2021-04-06 17:16:00",
     "avatar" : "",
     "bindApple" : false,
     "updateAt" : "2022-04-06 17:16:00",
     "statics" : {
-      "payTotal" : 9999,
+      "payTotal" : 280,
       "blogCollectTotal" : 0,
       "blogDownloadTotal" : 0
     },
-    "nickname" : "",
-    "telephone" : "2",
+    "nickname" : "云影风",
+    "telephone" : "19970173334",
     "status" : 0,
     "bindPhone" : false
   }
