@@ -2,7 +2,7 @@
 
 # 奶油壁纸
 
-^https://nz-api.duitang.com/account/me   url   script-response-body   https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/naiyou.js
+^https://nz-api.duitang.com/account/me url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/naiyou.js
 
 
 [mitm] 
@@ -13,7 +13,7 @@ hostname = nz-api.duitang.com
 
 var body = $response.body;
 
-var url = $request.url;
+/*var url = $request.url;*/
 
 var obj = JSON.parse(body);
 
