@@ -1,3 +1,4 @@
+/*
 [rewrite_local]
 
 #奶油壁纸
@@ -8,6 +9,8 @@
 [mitm] 
 
 hostname = nz-api.duitang.com
+
+*/
 
 
 
