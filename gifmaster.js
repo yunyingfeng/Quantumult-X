@@ -13,26 +13,14 @@ hostname = gifmaster.orzjun.com
 
 
 var body = $response.body;
+var objc = JSON.parse(body);
 
-var urlq = $request.url;
+objc.data = {
+    "vip": 0,
+    "vip_start" : "2022-03-03",
+    "uid" : "622072f68e1753051c3d377a",
+    "vip_end": "2999-09-28"
+};
 
-var obj = JSON.parse(body);
-
-
-
-const vip = '/v1/user';
-
-
-
-if (urlq.indexOf(vip) != -1) {
-
-    obj.data.["vip"] = "2";
-    obj.data.["vip_start"] = "2022-03-03";
-    obj.data.["uid"] = "622072f68e1753051c3d377a";
-    obj.data.["vip_end"] = "2999-03-03";
-
-    body = JSON.stringify(obj);
-
-}
-
-$done({body});
+body = JSON.stringify(objc);
+$done({ body });
