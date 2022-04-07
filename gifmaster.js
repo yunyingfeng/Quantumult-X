@@ -23,5 +23,4 @@ objc= {
   "code" : 0
 }
 
-body = JSON.stringify(objc);
-$done({ body });
+$done({body: JSON.stringify(objc)});
