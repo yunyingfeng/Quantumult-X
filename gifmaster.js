@@ -3,7 +3,7 @@
 
 #gif制作
 
-^http://gifmaster.orzjun.com/v1/user url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/gifmaster.js
+^http\:\/\/gifmaster\.orzjun\.com\/v1\/user\/login url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/gifmaster.js
 
 
 [mitm] 
@@ -21,7 +21,7 @@ var obj = JSON.parse(body);
 
 
 
-const vip = '/v1/user';
+const vip = '/v1/user/login';
 
 
 
