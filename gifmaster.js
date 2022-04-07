@@ -11,16 +11,18 @@ hostname = gifmaster.orzjun.com
 
 
 
-
-var body = $response.body;
 var objc = JSON.parse(body);
 
-objc.data = {
-    "vip": 0,
+objc= {
+  "msg" : "ok",
+  "data" : {
+    "vip" : 0,
     "vip_start" : "2022-03-03",
     "uid" : "622072f68e1753051c3d377a",
-    "vip_end": "2999-09-28"
-};
+    "vip_end" : "2099-03-03"
+  },
+  "code" : 0
+}
 
 body = JSON.stringify(objc);
 $done({ body });
