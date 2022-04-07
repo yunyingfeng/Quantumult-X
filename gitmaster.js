@@ -2,7 +2,8 @@
 [rewrite_local]
 
 #git制作
-^http://gifmaster.orzjun.com/v1/user url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/naiyou.js
+
+^http://gifmaster.orzjun.com/v1/user url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/gitmaster.js
 
 
 [mitm] 
