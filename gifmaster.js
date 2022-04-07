@@ -1,4 +1,4 @@
-
+/*
 [rewrite_local]
 
 #gif制作
@@ -7,7 +7,9 @@
 
 
 [mitm] 
-hostname = gifmaster.orzjun.com
+hostname = gifmaster.orzjun.com,
+
+*/
 
 
 
