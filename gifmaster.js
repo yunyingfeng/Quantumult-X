@@ -3,7 +3,7 @@
 
 #gif制作
 
-^http://gifmaster.orzjun.com/v1/user url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/gitmaster.js
+^http://gifmaster.orzjun.com/v1/user url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/gifmaster.js
 
 
 [mitm] 
