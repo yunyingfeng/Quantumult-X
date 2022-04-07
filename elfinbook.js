@@ -3,8 +3,7 @@
 
 #elfinbook易飞
 
-^https://api.elfinbook.com/v4/user/detail url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/gifmaster.js
-
+^https://api.elfinbook.com/v4/user/detail url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/elfinbook.js
 
 [mitm] 
 hostname = api.elfinbook.com
