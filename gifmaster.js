@@ -3,7 +3,7 @@
 
 #gif制作
 
-^http://gifmaster.orzjun.com/v1/user/login url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/gifmaster.js
+^http://gifmaster.orzjun.com/v1/user/login$ url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/gifmaster.js
 
 
 [mitm] 
@@ -14,7 +14,6 @@ hostname = gifmaster.orzjun.com
 var objc = JSON.parse(body);
 
 objc= {
-  "msg" : "ok",
   "data" : {
     "vip" : 0,
     "vip_start" : "2022-03-03",
