@@ -17,6 +17,7 @@ hostname = gifmaster.orzjun.com,
 
 var body = $response.body;
 
+var urlq = $request.url;
 
 var obj = JSON.parse(body);
 
