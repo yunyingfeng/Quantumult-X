@@ -13,16 +13,20 @@ hostname = api.elfinbook.com
 
 
 var body = $response.body;
+var urlq = $request.url;
+var obj = JSON.parse(body);
 
+const vip = '/v4/user/detail';
 
-    obj.data["vip"] = "1";
-    obj.data["is_trial"] : "99",
-    obj.data["expire_time"] : "2029.01.01";
-    obj.data["nickname"] : "🌈云影风";
+if (urlq.indexOf(vip) != -1) {
+
+    obj.vip= 1;
+    obj.is_trial : 99;
+    obj.expire_time : "2029.01.01";
+    obj.nickname : "🌈云影风";
     
   
-    
-    
-    $done({
-    body : JSON.stringify(objc)
-});
+   
+    body = JSON.stringify(obj);
+}
+$done({body});
