@@ -28,8 +28,11 @@ if (urlq.indexOf(vip) != -1) {
 
     obj.data.vip = 1;
     obj.data.expire_time : "2999.01.01";
-    
-    
+    obj.data.is_trial : 0,
+    obj.data.uid : 2658836,
+    obj.data.nickname : "🌈云影风"
+    obj.data.expire_description : "尊享无限次OCR等多项特权",
+    obj.data.invite_code : "Ue2GnXhkCN",
     
     
     
