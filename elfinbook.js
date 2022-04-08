@@ -16,6 +16,7 @@ var body = $response.body;
 
 
     obj.data["vip"] = "1";
+    obj.data["is_trial"] : "99",
     obj.data["expire_time"] : "2029.01.01";
     obj.data["nickname"] : "🌈云影风";
     
