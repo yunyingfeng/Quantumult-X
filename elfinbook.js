@@ -16,7 +16,7 @@ var body = $response.body;
 
 
     obj.data.["vip"] = "1";
-    obj.data.["headimg_url"] : "https://thirdwx.qlogo.cn/mmopen/vi_32/Q3auHgzwzM7yAXdMr7eg6VhdfShXbwqcmib7NR8j2ztRYhs2qAWRjW1Fy13sEWrLv4ibCdRWVB23qxxjict8PBnYVLB5IqMDG4T/132";
+    obj.data.["headimg_url"] : "https:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32/Q3auHgzwzM7yAXdMr7eg6VhdfShXbwqcmib7NR8j2ztRYhs2qAWRjW1Fy13sEWrLv4ibCdRWVB23qxxjict8PBnYVLB5IqMDG4T/132";
     
     
         
