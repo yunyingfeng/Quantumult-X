@@ -12,21 +12,14 @@ hostname = api.elfinbook.com
 
 
 
-var body = $response.body;
-var urlq = $request.url;
-var obj = JSON.parse(body);
+var objc = JSON.parse($response.body);
+objc.data.is_trial = 99;
+objc.data.vip = 1;
+objc.data.nickname = "\ud83c\udf08\u4e91\u5f71\u98ce";
+objc.data.headimg_url = "https:\/\/thirdwx.qlogo.cn\/mmopen\/vi_32\/Q3auHgzwzM7yAXdMr7eg6VhdfShXbwqcmib7NR8j2ztRYhs2qAWRjW1Fy13sEWrLv4ibCdRWVB23qxxjict8PBnYVLB5IqMDG4T/132";
+objc.data.expire_time = "2999.01.01";
 
-const vip = '/v4/user/detail';
 
-if (urlq.indexOf(vip) != -1) {
-
-    obj.vip= 1;
-    obj.is_trial : 99;
-    obj.expire_time : "2029.01.01";
-    obj.nickname : "🌈云影风";
-    
-  
-   
-    body = JSON.stringify(obj);
-}
-$done({body});
+$done({
+    body : JSON.stringify(objc)
+});
