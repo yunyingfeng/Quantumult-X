@@ -16,7 +16,7 @@ hostname = i.xinyulib.com.cn
 var objc = JSON.parse($response.body);
 objc.data.vipstartTime = "2020-09-28";
 objc.data.vipendtime = "2099-09-28";
-objc.data.trueName = "🌈云影风"";
+objc.data.trueName = "🌈云影风";
 
 $done({
     body : JSON.stringify(objc)
