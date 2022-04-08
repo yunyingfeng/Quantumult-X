@@ -1,7 +1,7 @@
 /*
 [rewrite_local]
 #新语听书
-^https?:\/\/i\.xinyulib\.com\.cn\/api\/querytoken.+ url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/elfinbook.js
+^https?:\/\/i\.xinyulib\.com\.cn\/api\/querytoken.+ url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/xinyutingshu.js
 
 [mitm] 
 hostname = i.xinyulib.com.cn
