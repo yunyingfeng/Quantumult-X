@@ -13,8 +13,8 @@ hostname = buy.itunes.apple.com,
 var objc = JSON.parse($response.body);
 
 
-    obj.date.web_order_line_item_id = "888888800000000";
-    obj.date.original_transaction_id = "88888800000000";
+    obj.web_order_line_item_id = "888888800000000";
+    obj.original_transaction_id = "88888800000000";
   
   
   $done({
