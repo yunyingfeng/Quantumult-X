@@ -12,7 +12,7 @@ hostname = buy.itunes.apple.com,
 
 */
 
-var objc = JSON.parse($response.body);
+let objc = JSON.parse($response.body);
 
 obj = {
   "status": 0,
