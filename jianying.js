@@ -1,8 +1,9 @@
 /*
 
-// by=yunyingfeng
+by=yunyingfeng
 
 #剪影恢复会员
+
 [rewrite_local]
 
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/yunyingfeng/Quantumult-X/main/jianying.js
@@ -12,9 +13,10 @@ hostname = buy.itunes.apple.com,
 
 */
 
-let objc = JSON.parse($response.body);
+var obj = JSON.parse($response.body);
 
-obj = {
+obj = 
+  {
   "status": 0,
   "environment": "Production",
   "receipt": {
