@@ -11,12 +11,12 @@ hostname = buy.itunes.apple.com,
 */
 
 var body = $response.body;
-var url = $request.url;
+var urlq = $request.url;
 var obj = JSON.parse(body);
 
 const vip = '/verifyReceipt';
 
-if (url.indexOf(vip) != -1) {
+if (urlq.indexOf(vip) != -1) {
     obj.date.web_order_line_item_id : "888888800000000";
     obj.date.original_transaction_id : "88888800000000";
   
