@@ -76,7 +76,7 @@ obj = {
   "latest_receipt": "5L2c6ICFQGtpbmc=",
   "pending_renewal_info": [{
     "auto_renew_product_id": "yearautorenew",
-    "original_transaction_id": "888888888888888",
+    "original_transaction_id": "888888800000000",
     "product_id": "yearautorenew",
     "auto_renew_status": "1"
   }]
