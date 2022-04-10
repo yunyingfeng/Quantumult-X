@@ -31,7 +31,7 @@ if (urlq.indexOf(user) != -1) {
         "rechargeVipState": 1,
         "appCode": "002503",
         "dailyViewNum": 99,
-        "myInviteCode": "556600",
+        "myInviteCode": "\u004b\u004d\u0045\u0059\u0059\u0036",
         "inviteCnt": 99,
         "nextLevelNeed": 0,
         "isFree": 0,
