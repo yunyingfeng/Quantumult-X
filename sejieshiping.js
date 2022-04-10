@@ -63,7 +63,7 @@ if (urlq.indexOf(user) != -1) {
         "isZhenren": 0,
         "nextLevelNum": 0,
         "preferenceCustom": "",
-        "gender": 2,
+        "gender": 0,
         "hasJoinPotatoGroup": 0,
         "supUserId": 2109061203550001,
         "companion": null,
