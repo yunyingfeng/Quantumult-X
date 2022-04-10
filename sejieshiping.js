@@ -70,7 +70,7 @@ if (urlq.indexOf(user) != -1) {
         "maxInviteCnt": null,
         "userBrowCnt": 0,
         "tagIds": "",
-        "icon": "/icon/4.png",
+        "icon": "/icon/3.png",
         "title": "\u6559\u6388",
         "pkg": "sj0002",
         "userCode": null,
