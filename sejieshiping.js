@@ -58,7 +58,7 @@ if (urlq.indexOf(user) != -1) {
         "phone": "666666",
         "name": null,
         "dailyViewShortNum": 99,
-        "userType": 3,
+        "userType": 9,
         "job": "",
         "isZhenren": 0,
         "nextLevelNum": 0,
