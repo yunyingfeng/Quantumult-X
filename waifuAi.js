@@ -13,7 +13,7 @@ const yunyingfeng = {};
 const yunyingfeng1 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 
 const name = "Premium";
-const appid = "net.kaleidoscope.cutout.premium1";
+const X-Client-Bundle-ID = "edu.buffalo.sfung3.AnimeArt";
 
 if (typeof $response == "undefined") {
   delete $request.headers["x-revenuecat-etag"];
@@ -23,12 +23,12 @@ if (typeof $response == "undefined") {
   yunyingfeng1.subscriber.subscriptions = chxm1024.subscriber.subscriptions || {};
   yunyingfeng1.subscriber.entitlements = chxm1024.subscriber.entitlements || {};
   const data = {
-	"product_identifier": (appid),
+	"product_identifier": (X-Client-Bundle-ID),
 	"expires_date": "2099-09-09T09:09:09Z",
 	"purchase_date": "2022-09-09T09:09:09Z"
 	};
   yunyingfeng1.subscriber.entitlements[(name)] = (data);
-  yunyingfeng1.subscriber.subscriptions[(appid)] = {  ...data,	"Author": "yunyingfeng",	"Telegram": "https://t.me/+v2uDI4PIh4BhM2Ix",	"warning": "🈲️仅供学习，禁止转载或售卖🈲️",	"original_purchase_date": "2022-09-09T09:09:09Z",	"store": "app_store",	"ownership_type": "PURCHASED"};
+  yunyingfeng1.subscriber.subscriptions[(X-Client-Bundle-ID)] = {  ...data,	"Author": "yunyingfeng",	"Telegram": "https://t.me/+v2uDI4PIh4BhM2Ix",	"warning": "🈲️仅供学习，禁止转载或售卖🈲️",	"original_purchase_date": "2022-09-09T09:09:09Z",	"store": "app_store",	"ownership_type": "PURCHASED"};
   yunyingfeng.body = JSON.stringify(yunyingfeng1);
 }
 
